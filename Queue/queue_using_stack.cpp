@@ -25,12 +25,20 @@ class st{
             }
         }
         int pop(){
+            if(s1.empty()){
+                cout<<"queue is empty";
+                exit(0);
+            }
            int x = s1.top();
            s1.pop();
            return x;
         }
 
-        int First(){
+        int Top(){
+            if(s1.empty()){
+                cout<<"queue is empty";
+                exit(0);
+            }
             return s1.top();
         }
 
@@ -56,7 +64,7 @@ int main()
        while (q.Size())
  {
     
-    cout<<"First element of queue using stack : "<<q.First()<<endl;
+    cout<<"First element of queue using stack : "<<q.Top()<<endl;
     cout<<"Deleting an element : "<<q.pop()<<endl;
     cout<<"Size of an element : "<<q.Size()<<endl;
     cout<<endl;
