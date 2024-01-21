@@ -43,7 +43,7 @@ class st{
         }
 
         bool isEmpty(){
-            if(s1.top() ==-1)
+            if(s1.empty())
                 return true;
             else false;
         }
