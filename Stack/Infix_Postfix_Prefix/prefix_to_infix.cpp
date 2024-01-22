@@ -8,7 +8,7 @@ class Solution {
         stack<string> st;
         string result;
         int i = pre_exp.size()-1;
-        // iterating the whole expression one by one
+        // iterating the whole expression one by one from right
         while(i>=0){
             string ch= "";
             ch += pre_exp[i];
