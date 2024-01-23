@@ -1,6 +1,9 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+
+// Input: nums1 = [4,1,2], nums2 = [1,3,4,2]
+// Output: [-1,3,-1]
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
