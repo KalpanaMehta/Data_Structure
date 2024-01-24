@@ -9,7 +9,7 @@ public:
         if(n==1) return strs[0];
         sort(strs.begin(),strs.end());
 
-        string first = strs[0];   
+        string first = strs[0];    
         string second = strs[n-1];
         string res = "";
         for(int i=0; i<second.size(); i++){
